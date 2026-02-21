@@ -103,7 +103,7 @@ except ImportError:
 # Replace the text below with your actual API key from AI Studio
 API_KEY = "YOUR_API_KEY".strip()
 
-if not API_KEY or API_KEY == "AIzaSyDYV3svo8gs5i8HpkCXnrGkblsMkLvbPlk":
+if not API_KEY or API_KEY == "ANOTHER_BACKUP_API_KEY":
     st.sidebar.warning("⚠️ Enter API Key to start")
     api_input = st.sidebar.text_input("Gemini API Key", type="password")
     if api_input:
@@ -318,3 +318,4 @@ footer_html = """
 """
 
 st.markdown(footer_html, unsafe_allow_html=True)
+
