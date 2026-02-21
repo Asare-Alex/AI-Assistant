@@ -101,7 +101,7 @@ except ImportError:
 
 # --- 2. API KEY SETUP ---
 # Replace the text below with your actual API key from AI Studio
-API_KEY = "AIzaSyBFETVWo8FpZHR8ReLCBzVu1LmIfLi9fFU".strip()
+API_KEY = "YOUR_API_KEY".strip()
 
 if not API_KEY or API_KEY == "AIzaSyDYV3svo8gs5i8HpkCXnrGkblsMkLvbPlk":
     st.sidebar.warning("⚠️ Enter API Key to start")
@@ -316,4 +316,5 @@ footer_html = """
     </p>
 </div>
 """
+
 st.markdown(footer_html, unsafe_allow_html=True)
